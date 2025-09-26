@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DogRop - Contacto</title>
+    <!--
+        Theme name: Violet Blog
+        Theme URL: https://dbproject.rf.gd/theme/violet-blog
+        Description: Responsive blog theme with Light/Dark mode and elegant purple accents.
+        Theme Author: Armin (DBHS)
+        Theme Author URL: https://dbproject.rf.gd
+        Theme Version: 1.0
+        Theme created: 2025-09-15
+        Theme updated: 2025-09-26
+    -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./image/favicon.png" type="image/png">
+</head>
+<body>
+    <header id="header" class="header">
+        <a href="./" class="header__button header__button-title">DogRop</a>
+        <div class="header__entries">
+            <input type="checkbox" id="header__show-or-hide-nav" class="header__show-or-hide-nav">
+            <label for="header__show-or-hide-nav">
+                <span class="open"><i class="fas fa-bars"></i></span>
+                <span class="close"><i class="fas fa-times"></i></span>
+            </label>
+            <nav class="header__nav">
+                <a href="./" class="header__button"><span class="icon">🏠</span> Inicio</a>
+                <a href="./post/" class="header__button"><span class="icon">📚</span> Ropas</a>
+                <a href="./shopping-cart.html" class="header__button header__button"><span class="icon">🛒</span> Carrito</a>
+                <a href="./account/login.html" class="header__button header__button"><span class="icon">🧟</span> Cuenta</a>
+                <a href="./about.html" class="header__button header__button--show-mobile"><span class="icon">🧟</span> Acerca de</a>
+            </nav>
+        </div>
+    </header>
+    <main id="main" class="main">
+        <div class="main__content">
+            <h1 id="title">☎️ Contacto</h1>
+            <p>Por favor, completa el siguiente formulario para ponerte en contacto conmigo:</p>
+            <form action="#" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" minlength="5" maxlength="100" placeholder="Tu nombre" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" minlength="5" maxlength="100" placeholder="Tu correo electrónico" required>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="5" minlength="20" maxlength="5000" placeholder="Tu mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+    <footer id="footer" class="footer">
+        <nav class="footer__nav-icons">
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+            <a href="#"><i class="fab fa-instagram-square"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github-square"></i></a>
+            <a href="#"><i class="fab fa-youtube-square"></i></a>
+            <a href="#"><i class="fab fa-discord"></i></a>
+            <a href="#"><i class="fas fa-rss-square"></i></a>
+        </nav>
+        <p class="footer__text">Hecho de ❤️ por <a href="http://dbproject.rf.gd" target="_blank" rel="noopener noreferrer">dbproject</a></p>
+    </footer>
+    <aside><a class="back-to-top fas fa-caret-up" href="#"></a></aside>
+    <script src="./app.js"></script>
+</body>
+</html>

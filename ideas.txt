@@ -1,0 +1,15 @@
+
+
+- Galeria +
+- Miniatura en cada post +
+- Texto tipo comentario ----
+- Multiples temas +
+- Cambiar imagenes con un clic en el producto +
+- Poner el boton de tema por js +
+- Login, Register, Forgot password +
+- Producto +
+- Contact +
+- About +
+- Shopping cart +
+- Agregar o comprar usando javascript [localstorage]
+- Modal para comprar
